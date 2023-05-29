@@ -1,12 +1,12 @@
 //grade calculator
 fun main() {
-    var x = calculateGrade()
+    val x = calculateGrade()
     println(x)
 }
 
 //grade calculator brain
 fun calculateGrade() {
-    var subjects = mutableListOf<Double>()
+    val subjects = mutableListOf<Double>()
 //    we get of type int because we want to be calculating. Future update would be to use class and use Subject Class
     println("*************************GRADE CALCULATOR*************************")
     println("Welcome to the GRADE CALCULATOR")
