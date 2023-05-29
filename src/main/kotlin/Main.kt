@@ -50,5 +50,7 @@ fun giveGradeMeaning(grade: Double) {
         in 50.0..69.9 -> println("PASSED -- YOU CAN DO BETTER")
         in 70.0..89.9 -> println("GOOD -- KEEP IT UP")
         in 90.0..100.0 -> println("EXCELLENT -- YOU NAILED IT")
+//        add a fallback clause
+        else -> println("The number inputted is not n range")
     }
 }
